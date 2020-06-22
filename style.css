@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: khaki;
+}
+#wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    }
+
+h1 {
+    margin: auto;
+    width: inherit;
+    padding: 1rem;
+}
+
+#main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#main p {
+    padding: 0.5rem;
+    margin-top: 0.5rem ;
+    border-radius: 3px;
+}
+
+#errorss {
+    background-color: inherit;
+}
